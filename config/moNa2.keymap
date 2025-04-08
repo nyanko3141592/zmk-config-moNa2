@@ -16,27 +16,27 @@
         compatible = "zmk,combos";
 
         tab {
-            bindings = <&kt TAB>;
+            bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
 
         eq {
-            bindings = <&kt EQUAL>;
+            bindings = <&kp EQUAL>;
             key-positions = <8 9>;
         };
 
         d_q {
-            bindings = <&kt DOUBLE_QUOTES>;
+            bindings = <&kp DOUBLE_QUOTES>;
             key-positions = <19 20>;
         };
 
         s_q {
-            bindings = <&kt SINGLE_QUOTE>;
+            bindings = <&kp SINGLE_QUOTE>;
             key-positions = <21 20>;
         };
 
         minus {
-            bindings = <&kt MINUS>;
+            bindings = <&kp MINUS>;
             key-positions = <8 7>;
         };
 
