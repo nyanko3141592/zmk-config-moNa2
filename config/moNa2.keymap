@@ -12,7 +12,34 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        tab {
+            bindings = <&kt TAB>;
+            key-positions = <11 12>;
+        };
+
+        eq {
+            bindings = <&kt EQUAL>;
+            key-positions = <8 9>;
+        };
+
+        d_q {
+            bindings = <&kt DOUBLE_QUOTES>;
+            key-positions = <19 20>;
+        };
+
+        s_q {
+            bindings = <&kt SINGLE_QUOTE>;
+            key-positions = <21 20>;
+        };
+
+        minus {
+            bindings = <&kt MINUS>;
+            key-positions = <8 7>;
+        };
+    };
 
     macros {
         to_layer_0: to_layer_0 {
