@@ -82,7 +82,7 @@
 &kp Q               &kp W           &kp E         &kp R             &kp T                                                          &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &mt LEFT_COMMAND A  &kp S           &kp D         &kp F             &kp G        &trans                         &kp MINUS          &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z    &kp X           &kp C         &kp V             &kp B        &lt 2 LEFT_BRACKET             &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 3 SPACE  &mt LEFT_COMMAND LANGUAGE_2    &kp BACKSPACE      &lt 1 ENTER                             &mt RIGHT_COMMAND LANGUAGE_1
+&kp LCTRL           &kp LEFT_SHIFT  &kp LEFT_ALT  &lt 1 LANGUAGE_2  &lt 3 SPACE  &mt LEFT_COMMAND LANGUAGE_1    &kp BACKSPACE      &lt 1 ENTER                             &mt RIGHT_COMMAND LANGUAGE_1
             >;
 
             sensor-bindings =
